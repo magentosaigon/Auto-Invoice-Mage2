@@ -10,9 +10,9 @@
 
 4.Run php bin/magento setup:upgrade</br>
 
-6. Clean the cache</br>
+5. Clean the cache</br>
 
-7. Go To admin panel to choose your option for this module</br>
+6. Go To admin panel to choose your option for this module</br>
 
 **Report Issue**</br>
 
