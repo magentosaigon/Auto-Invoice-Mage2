@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <mercuriel>
+            <general>
+                <enable>1</enable>
+                <specificPaymentInvoice>mercuriel_default_all</specificPaymentInvoice>
+                <specificPaymentShipments>mercuriel_default_all</specificPaymentShipments>
+                <emailInvoice>1</emailInvoice>
+                <emailShipment>1</emailShipment>
+            </general>
+        </mercuriel>
+    </default>
+</config>
