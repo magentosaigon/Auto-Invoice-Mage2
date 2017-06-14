@@ -2,7 +2,6 @@
 
 
 **Installation**
-
 </br>
 1.Clone this module
 
@@ -13,7 +12,7 @@
 3.Copy/Paste modules folder 
 
 </br>
-4.Run php bin/magento setup:upgrade
+4.Run `bin/magento setup:upgrade`
 
 </br>
 5.Clean the cache
