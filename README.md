@@ -10,5 +10,5 @@ Magento 2: Auto Invoice - Shipment based on payment methods and Product Types
 6. Go To admin panel to choose your option for this module
 
 ## Report issues
-Don't hesitate to contact info@mercuriel.ch if you found any issue.
+Open an issue
 
