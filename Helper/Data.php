@@ -8,9 +8,7 @@
 
 namespace Mercuriel\Autoinvoice\Helper;
 
-use Magento\Framework\App\Helper\AbstractHelper;
-
-class Data extends AbstractHelper
+class Data
 {
     /**
      * Parameter for Mercuriel Autoinvoice configuration
@@ -70,9 +68,7 @@ class Data extends AbstractHelper
      * @param \Psr\Log\LoggerInterface $logger
      */
     public function __construct(
-        \Magento\Framework\App\Helper\Context $context,
         \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
-
         \Magento\Sales\Model\Service\InvoiceService $invoiceService,
         \Magento\Sales\Api\OrderRepositoryInterface $order,
         \Magento\Sales\Model\Order\ShipmentFactory $shipmentFactory,
@@ -83,7 +79,6 @@ class Data extends AbstractHelper
         \Psr\Log\LoggerInterface $logger
     )
     {
-        parent::__construct($context);
         $this->order = $order;
         $this->scopeConfig = $scopeConfig;
         $this->invoiceService = $invoiceService;

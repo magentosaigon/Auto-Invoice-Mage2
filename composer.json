@@ -1,5 +1,6 @@
 {
   "name": "mercuriel/autoinvoice",
+  "version": "1.0.0",
   "description": "Auto Invoice - Shipments based on payment methods",
   "type": "magento2-module",
   "license": "OSL-3.0",
